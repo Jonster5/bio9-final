@@ -1,16 +1,21 @@
 {
-  "name": "bio9-final",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.7",
-    "svelte": "^3.37.0",
-    "svelte-preprocess": "^4.7.2",
-    "typescript": "^4.2.4",
-    "vite": "^2.3.5"
-  }
+	"name": "bio9-final",
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview",
+		"deploy": "vite build & firebase deploy"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^1.0.0-next.7",
+		"firebase-tools": "^9.12.1",
+		"sass": "^1.34.1",
+		"svelte": "^3.37.0",
+		"svelte-preprocess": "^4.7.2",
+		"typescript": "^4.2.4",
+		"vite": "^2.3.5",
+		"yarn": "^1.22.10"
+	}
 }
